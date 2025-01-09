@@ -3,8 +3,7 @@
 import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
-import { SparkleIcon, FriesIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
+import { FriesIcon, SparkleIcon } from '~/assets'
 import { SocialLink } from '~/components/links/SocialLink'
 
 function Developer() {
