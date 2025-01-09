@@ -10,3 +10,8 @@ declare global {
     type ElementType = string | ReactJSXElementConstructor<any>
   }
 }
+
+declare module '*.md' {
+  const content: string
+  export default content
+}
