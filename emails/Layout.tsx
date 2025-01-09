@@ -43,7 +43,7 @@ export default function Layout({
                 className="mx-auto my-0"
               />
               <Text className="text-center">
-                <Link
+                {/* <Link
                   href="https://cali.so"
                   className="text-zinc-700 underline"
                 >
@@ -79,7 +79,7 @@ export default function Layout({
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩
-                </Link>
+                </Link> */}
               </Text>
             </Section>
           </Container>

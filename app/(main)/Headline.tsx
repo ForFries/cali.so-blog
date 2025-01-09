@@ -80,10 +80,16 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Nolan，
-          一名计算机科学与技术专业的大三学生，专注于后端开发。我信奉"去码头整点薯条"的人生哲学，
-          这不仅是我的人生格言，更是我对待技术与生活的态度。我热爱编程，但更热爱生活本身，
-          致力于在复杂的技术世界中寻找简单的快乐。
+          <span className="block" />
+          👋 嘿，我是 Nolan！
+          <span className="block mt-2" />
+          🎓 作为一名计算机科学与技术专业的大三学生，我正在探索代码世界的无限可能。
+          <span className="block mt-2" />
+          💫 我相信技术应该是有温度的，就像繁星点缀夜空，每一行代码都在讲述着独特的故事。
+          <span className="block mt-2" />
+          🌈 生活不止眼前的代码，还有诗和远方。
+          <span className="block mt-2" />
+          ✨ 让我们一起在这个数字世界里，创造属于自己的精彩故事吧！
         </Balancer>
       </motion.p>
       <motion.div
@@ -98,7 +104,7 @@ export function Headline() {
           delay: 0.25,
         }}
       >
-        <SocialLink
+        {/* <SocialLink
           href="https://twitter.com/your_twitter"
           aria-label="我的推特"
           platform="twitter"
@@ -122,7 +128,7 @@ export function Headline() {
           href="https://cali.so/tg"
           aria-label="我的 Telegram"
           platform="telegram"
-        />
+        /> */}
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
           href="mailto:nolan@tofries.com"
