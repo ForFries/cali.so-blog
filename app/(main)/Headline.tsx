@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
-import { SparkleIcon, UserSecurityIcon } from '~/assets'
+import { SparkleIcon, FriesIcon } from '~/assets'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-[3.5px] -left-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      大学生
     </span>
   )
 }
@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group inline-flex items-center">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
+      <span>我们要飞向何方？</span>
     </span>
   )
 }
@@ -43,8 +43,8 @@ function OCD() {
 function Founder() {
   return (
     <span className="group inline-flex items-center">
-      <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <FriesIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
+      <span>待会去码头整点薯条</span>
     </span>
   )
 }
@@ -65,7 +65,7 @@ export function Headline() {
       >
         <Developer />，<Designer />，
         <span className="block h-2" />
-        <OCD />，<Founder />
+        <OCD /><Founder />
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -80,10 +80,10 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 Nolan，
+          一名计算机科学与技术专业的大三学生，专注于后端开发。我信奉"去码头整点薯条"的人生哲学，
+          这不仅是我的人生格言，更是我对待技术与生活的态度。我热爱编程，但更热爱生活本身，
+          致力于在复杂的技术世界中寻找简单的快乐。
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,7 +99,7 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://twitter.com/your_twitter"
           aria-label="我的推特"
           platform="twitter"
         />
@@ -125,7 +125,7 @@ export function Headline() {
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:nolan@tofries.com"
           aria-label="我的邮箱"
           platform="mail"
         />
