@@ -1,6 +1,6 @@
 {
-    "name": "你的网站名称",
-    "short_name": "简称",
+    "name": "去码头整点薯条",
+    "short_name": "fries",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
