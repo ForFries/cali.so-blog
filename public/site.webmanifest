@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "你的网站名称",
+    "short_name": "简称",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

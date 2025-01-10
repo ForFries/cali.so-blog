@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     template: '%s | 去码头整点薯条',
     default: seo.title,
   },
+  icons: {
+    icon: '/icon.png',
+  },
   description: seo.description,
   keywords: '',
   manifest: '/site.webmanifest',
@@ -76,6 +79,15 @@ export default function RootLayout({
         className={`${sansFont.variable} m-0 h-full p-0 font-sans antialiased`}
         suppressHydrationWarning
       >
+        <head>
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+          <link rel="manifest" href="/site.webmanifest"/>
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+          <meta name="msapplication-TileColor" content="#282828"/>
+          <meta name="theme-color" content="#ffffff"/>
+        </head>
         <body className="flex h-full flex-col">
           <ThemeProvider
             attribute="class"
