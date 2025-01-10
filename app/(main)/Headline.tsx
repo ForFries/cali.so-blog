@@ -118,11 +118,7 @@ export function Headline() {
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
-        <SocialLink
-          href="https://cali.so/github"
-          aria-label="我的 GitHub"
-          platform="github"
-        />
+ç
         <SocialLink
           href="https://cali.so/tg"
           aria-label="我的 Telegram"
